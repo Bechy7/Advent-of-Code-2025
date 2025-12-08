@@ -20,7 +20,7 @@ edges.sort((a, b) => a[2] - b[2]);
 
 let circuits = [];
 
-for (let i = 0; i < 1000; i++) {
+for (let i = 0; i < input.length; i++) {
     const [point1, point2] = edges[i];
     const index1 = getCircuitIndex(point1);
     const index2 = getCircuitIndex(point2);
